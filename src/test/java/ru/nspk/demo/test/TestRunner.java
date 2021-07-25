@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 @CucumberOptions(
         features = { "src/test/resources/features" },
         glue = { "ru.nspk.demo.test.steps" },
-        tags = "@addition"
+        tags = "@calculator"
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 
